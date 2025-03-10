@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Group</th>
+            <th>Avatar</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Character</th>
+            <th>Profile</th>
+        </tr>
+        <tr>
+            <td rowspan="2">front</td>
+            <td><img src="media/red.jpeg" alt="red" width="50" height="50"/></td>
+            <td>Osama elzero</td>
+            <td>o1@nn.sa<hr>o1@nn.sa</td>
+            <td>&copy;</td>
+            <td><a href="https://facebook.com" target="_blank" title="go to profile">Profile</a></td>
+           
+           
+        </tr>
+
+        <tr>
+           
+            <td><img src="media/blue.jpeg " alt="red" width="50" height="50"/></td>
+            <td>shehab mohammed</td>
+            <td>s@nn.sa</td>
+            <td>&trade;</td>
+            <td><a href="https://facebook.com" target="_blank" title="go to profile">Profile</a></td>
+        </tr>
+        <tr>
+            <td>Monsters</td>
+            <td><img src="media/black.jpeg " alt="red" width="50" height="50"/></td>
+            <td>ahmed Ibrahim</td>
+            <td>m@nn.sa</td>
+            <td>&reg;</td>
+            <td><a href="https://facebok.com" target="_blank" title="go to profile">Profile</a></td>
+        </tr>
+        <tr>
+            <td colspan="5">All Members</td>
+            <td>3</td>
+        </tr>
+       
+       
+    </table>
+    
+</body>
+</html>

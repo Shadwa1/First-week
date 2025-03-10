@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+</head>
+<body>
+     <!-- Go To External Link in the new tap -->
+     <a href="https://facebook.com" target="_blank">facebook</a>
+     <!-- Go To External Link open in the same page -->
+     <a href="https://facebook.com" target="_self">facebook</a>
+     <!--Go to External page-->
+     <a href="index.html6">task</a>
+     <!--Go to element in the same page-->
+     <a href="#one">pragraph</a>
+     <p id="one">Shada Mahmoud</p>
+      <!--send an email-->
+      <a href="mailto:shadabasyoni@gmail.com">gmail</a>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+</head>
+<body>
+    <header>
+        <h1>page one</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">link1</a></li>
+            <li><a href="#">link2</a></li>
+            <li><a href="#">link3</a></li>
+            <li><a href="#">link4</a></li>
+            <li><a href="#">link5</a></li>
+            <li><a href="#">link6</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article> 
+            <h3>First article</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, deleniti. Aut alias provident tenetur, quibusdam nostrum facere voluptate, iure quo facilis placeat laborum sit ab quas unde non accusamus veniam.</p>
+            <img src="media/blue.jpeg" alt="blue"/><br>
+            <a href="#">Read More</a>
+           
+        </article>
+        <hr>
+        <article>
+            <h3>second article</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio officia autem aperiam animi doloremque placeat maxime minus impedit ab ipsum ullam fugiat ipsa velit, libero labore suscipit a. Accusantium.</p>
+            <img src="media/red.jpeg" alt="red"/><br>
+            <a href="#">Read More</a>
+        </article>
+        <hr>
+        <article>
+            <h3>Third article</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, sequi, distinctio perferendis velit sint repudiandae porro quod corrupti possimus fugiat accusantium sunt. Dignissimos sit nemo pariatur corrupti perspiciatis iusto quas!</p>
+            <img src="media/green.jpeg" alt="green"/><br>
+            <a href="#">Read More</a>
+        </article>
+      </section>
+      <section>
+        <aside>
+            <h3>Categories</h3>
+            <ul>
+                <li>part1</li>
+                <li>part2</li>
+                <li>part3</li>
+                <li>part4</li>
+                <li>part5</li>
+            </ul>
+        </aside>
+      </section>
+      <footer>
+        <p>Copyright 2025 &copy;</p>
+      </footer>
+    
+    
+</body>
+</html>

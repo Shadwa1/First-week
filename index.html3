@@ -1,0 +1,35 @@
+<!doctype html>
+ <head>
+    <title>book store</title>
+    <meta chaset="UTF-8" />
+    <meta name="viewport" content="width=device-width", initial-scale="1"/>
+    <meta name="discription" content="this my book store"/>
+ </head>
+ <body>
+    <h1>Book store</h1>
+    <p>the store contain many type of the book</p>
+    <div class="romantic">
+      <h3>Romantic book</h3>
+      <h4>book1</h4>
+      <p>book discription</p>
+      <hr>
+      <h4>book2</h4>
+      <p>book discription</p>
+      <hr>
+      <h4>book3</h4> 
+      <p>book discription</p>  
+    </div>
+    <div class="action">
+      <h3>Action book</h3>
+      <h4>book1</h4>
+      <p>book discription</p>
+      <hr>
+      <h4>book2</h4>
+      <p>book discription</p>
+      <hr>
+      <h4>book3</h4> 
+      <p>book discription</p>  
+    </div>
+
+ </body>
+</html>

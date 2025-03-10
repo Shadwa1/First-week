@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+</head>
+<body>
+    <video controls autoplay muted poster="media/green.jpeg" width="300" hight="50">
+        <source src="media/1.mp4" type="video/mp4">
+        <source src="media/1.ogv" type="video/ogg">
+        <source src="media/1.webm" type="video/webm">
+        your browser not this video
+        <track src="my_file.vtt" kind="subtitle" scrlang="en" lable="english">
+        <track src="my_file.vtt" kind="subtitle" scrlang="ar" lable="arabic">
+    </video>
+    
+</body>
+</html>

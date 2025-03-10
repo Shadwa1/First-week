@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+</head>
+<body>
+    <form action="index.html" method="get" >
+        <label for="tokan" hidden>token</label>
+        <input type="text" id="token" hidden value="dwijdiehuwehwb" name="tokan"/>
+       <div>
+        <label for="user">Username :</label><br>
+        <input type="text" id="user" minlength="5" maxlength="20" required autofocus name="username">
+        <hr>
+       </div>
+       <div>
+        <label for="mail">Email :</label><br>
+        <input type="email" id="mail" value="o@o.com" readonly name="email"/>
+        <hr>
+       </div>
+       <div>
+        <h3>Skilles:</h3>
+        <input type="checkbox" id="ps" name="ui" value="User interface" checked/>
+        <label for="ui">User interface</label>
+       </div>
+       <div> 
+        <input type="checkbox" id="ls" name="ps" value="Problem Solving"/>
+        <label for="ps">Problem Solving</label>
+       </div>
+       <div>
+        <input type="checkbox" id="as" name="shearch" value="Advanced Search"/>
+        <label for="as">Advanced Search</label>
+       </div>
+       <div>
+        <input type="checkbox" id="analysis" name="analysis" value="Analysis"/>
+        <label for="analysis">Analysis</label>
+       </div>
+       <div>
+        <h3>Job:</h3>
+        <input id="fd" type="radio" name="front-end" value="front-end" checked />
+        <label for="fd">Front-End</label>
+       </div>
+       <div>
+        <input id="be" type="radio" name="back-end" value="Back-End"/>
+        <label for="be">Back-End</label>
+       </div>
+       <div>
+        <input id="ba" type="radio" name="business analyst" value="Business Analyst"/>
+        <label for="ba">Business Analyst</label>
+       </div>
+       <div>
+        <input id="pm" type="radio" name="project manager" value="Project Manager"/>
+        <label for="pm"> Project Manager</label>
+       </div>
+       <div id="language">
+        <label>Choose a language</label>
+        <select for="language">
+            <optgroup label="Javascript">
+                <option value="v5.0">v5.0</option>
+                <option value="v7.0">v7.0</option>
+                <option value="v8.0">v8.0</option>
+            </optgroup> 
+            <optgroup label="C++">
+                <option value="v2.0">v2.0</option>
+                <option value="v3.0">v3.0</option>
+                <option value="v3.9">v3.9</option>
+            </optgroup>
+       </select>
+       <hr>
+     </div>
+     <div>
+        <label for="brief">Brief:</label><br>
+        <textarea id="brief" name="brief" cols="40" rows="15" placeholder="Tell as the reosons Why you want to learn Programming"></textarea>
+     </div>
+        <input type="submit" value="Send" />
+        <input type="reset" value="Empty"/>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+</head>
+<body>
+  
+<body>
+    <form  target="_blank">
+        <div>
+            <label for="">Search</label><br><br>
+            <input type="text" name="Search" placeholder="Enter A Word" autofocus>
+        </div><br>
+        <div>
+            <label for="">upload</label><br><br>
+            <input type="file" name="File" ><br>
+        </div>
+        <div>
+            <label for=""> URL</label><br><br>
+            <input type="url" name="url" required ><br>
+        </div><br>
+        <input type="reset" value="Empty"/>
+        <input type="submit" value="Save"/>
+    </form>
+    <hr>
+    <form >
+        <div>
+            <label >Date</label>
+            <input type="date" value="2005-10-05" />
+        </div><br>
+        <div>
+            <label >Month</label>
+            <input type="month"  name="month" value="2005-10"/>
+        </div><br>
+        <input type="reset" value="Empty"/>
+        <input type="submit" value="Save"/>
+    </form>
+    <hr>
+    <pre>
+     Hello One
+     Hello Two
+     Hello Three
+     Hello Four
+    </pre>
+    <hr>
+      
+</body>
+</html>
